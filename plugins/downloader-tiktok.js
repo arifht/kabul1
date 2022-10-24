@@ -101,12 +101,12 @@ const sections = [
    {
 	title: `${htjava} Tiktok Downloader Work✦-------`,
 	rows: [
-        {title: "Api Malesin", rowId: `.malesin ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api Neoxr", rowId: `.ttkneoxr ${args[0]}`, description: 'Apikey Limit Free' },
-        {title: "Api Adiixyz", rowId: `.ttkadiixyz ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api Anabot", rowId: `.ttkanabot ${args[0]}`, description: 'Apikey Limit Unlimited' },
-        {title: "Api X-Team", rowId: `.ttkxteam ${args[0]}`, description: 'Apikey Limit Free' },
-	{title: "Api ZenzApis", rowId: `.ttkzenzapis ${args[0]}`, description: 'Apikey Limit Free' },
+        {title: "✎ • downloader tiktok V1", rowId: `.malesin ${args[0]}`, description: 'Apikey Limit Unlimited' },
+        {title: "✎ • downloader tiktok V2", rowId: `.ttkneoxr ${args[0]}`, description: 'Apikey Limit Free' },
+        {title: "✎ • downloader tiktok V3", rowId: `.ttkadiixyz ${args[0]}`, description: 'Apikey Limit Unlimited' },
+        {title: "✎ • downloader tiktok V4", rowId: `.ttkanabot ${args[0]}`, description: 'Apikey Limit Unlimited' },
+        {title: "✎ • downloader tiktok V5", rowId: `.ttkxteam ${args[0]}`, description: 'Apikey Limit Free' },
+	{title: "✎ • downloader tiktok V6", rowId: `.ttkzenzapis ${args[0]}`, description: 'Apikey Limit Free' },
     ]
     },{
         title: `${htjava} Tiktok Downloader Error / 50% Work ✦-------`,
