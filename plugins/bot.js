@@ -11,12 +11,12 @@ conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: { showAdAttributio
     description: sgc,
     title: '≪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ⋟',
     body: wm,
-    thumbnail: await(await fetch("https://telegra.ph/file/7d08ae6675cce5dc71734.jpg")).buffer(),
+    thumbnail: await(await fetch("https://telegra.ph/file/166ae5e34a8219f02cccd.jpg")).buffer(),
     sourceUrl: sgc
   }
   } }) 
           }
-handler.customPrefix = /^(bot|robot|p|tes|tes123|tes1|tes12|woy|wan|mawan|wann|oii|.)$/i
+handler.customPrefix = /^(bot|robot|p|tes|tes123|tes1|tes12|woy|bull|zyko|bul|oii|.)$/i
 handler.command = new RegExp
 
 export default handler
