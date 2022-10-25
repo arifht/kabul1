@@ -160,7 +160,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Beaky_Buzzard/ltbk_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -174,7 +174,7 @@ if (command == 'voice11') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Beaky_Buzzard/ltbk_0${(10, 22).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -189,7 +189,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Benny/ltby_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -204,7 +204,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Big_Bad_Wolf/ltbw_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -218,7 +218,7 @@ if (command == 'voice14') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Big_Bad_Wolf/ltbw_0${(10, 17).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -233,7 +233,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Blacque_Jacque_Shellaque/ltbj_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -247,7 +247,7 @@ if (command == 'voice16') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Blacque_Jacque_Shellaque/ltbj_00${(10, 11).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -262,7 +262,7 @@ let vr = 7
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Bruno_Bear/ltbr_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -277,7 +277,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Bugs_Bunny/ltbb_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -291,7 +291,7 @@ if (command == 'voice19') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Bugs_Bunny/ltbb_0${(10, 99).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -305,7 +305,7 @@ if (command == 'voice20') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Bugs_Bunny/ltbb_${(100, 388).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -320,7 +320,7 @@ let vr = 6
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Cat_and_Dog/ltct_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -335,7 +335,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Cecil_Turtle/ltcc_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -349,7 +349,7 @@ if (command == 'voice23') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Cecil_Turtle/ltcc_00${(10, 12).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -364,7 +364,7 @@ let vr = 8
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Charlie_Dog/ltcd_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -379,7 +379,7 @@ let vr = 8
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Claude_Cat/ltcl_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -394,7 +394,7 @@ let vr = 8
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Colonel_and_Belvedere/ltco_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -409,7 +409,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Count_Bloodcount/ltcb_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -423,7 +423,7 @@ if (command == 'voice28') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Count_Bloodcount/ltcb_0${(10, 11).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -438,7 +438,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Daffy_Duck/ltdd_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -452,7 +452,7 @@ if (command == 'voice30') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Daffy_Duck/ltdd_0${(10, 99).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -466,7 +466,7 @@ if (command == 'voice31') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Daffy_Duck/ltdd_${(100, 223).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -481,7 +481,7 @@ let vr = 5
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Dumb_dog/ltdm_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -496,7 +496,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Elmer_Fudd/ltef_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -510,7 +510,7 @@ if (command == 'voice34') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Elmer_Fudd/ltef_0${(10, 32).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -525,7 +525,7 @@ let vr = 6
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Evil_Scientist/ltes_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -540,7 +540,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/FX/ltfx_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -554,7 +554,7 @@ if (command == 'voice37') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/FX/ltfx_0${(10, 99).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -568,7 +568,7 @@ if (command == 'voice38') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/FX/ltfx_${(100, 131).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -583,7 +583,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Foghorn_Leghorn/ltfl_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -597,7 +597,7 @@ if (command == 'voice40') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Foghorn_Leghorn/ltfl_0${(10, 91).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -612,7 +612,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Genie/ltge_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -626,7 +626,7 @@ if (command == 'voice42') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Genie/ltge_0${(10, 10).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -641,7 +641,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Granny/ltgr_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -655,7 +655,7 @@ if (command == 'voice44') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Granny/ltgr_0${(10, 20).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -670,7 +670,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Gremlin/ltgm_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -685,7 +685,7 @@ let vr = 3
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Hassan/lths_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -700,7 +700,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Henery_Hawk/lthh_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -714,7 +714,7 @@ if (command == 'voice48') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Henery_Hawk/lthh_0${(10, 24).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -728,7 +728,7 @@ if (command == 'voice49') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Honeymousers/lthm_001.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -743,7 +743,7 @@ let vr = 3
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/House_Detective_at_Spinster_Arms/ltdt_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -758,7 +758,7 @@ let vr = 4
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Hubie_and_Bert/lthb_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -773,7 +773,7 @@ let vr = 2
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Little_Rooster/ltlr_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -788,7 +788,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Mac_and_Tosh/ltmt_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -802,7 +802,7 @@ if (command == 'voice54') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Mac_and_Tosh/ltmt_0${(10, 15).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -817,7 +817,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Marvin_The_Martian/ltmm_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -831,7 +831,7 @@ if (command == 'voice56') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Marvin_The_Martian/ltmm_0${(10, 22).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -846,7 +846,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Michigan_J_Frog/ltmj_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -860,7 +860,7 @@ if (command == 'voice58') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Michigan_J_Frog/ltmj_0${(10, 10).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -875,7 +875,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Miscellaneous/ltmi_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -889,7 +889,7 @@ if (command == 'voice59') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Miscellaneous/ltmi_0${(10, 99).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -903,7 +903,7 @@ if (command == 'voice60') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Miscellaneous/ltmi_${(100, 139).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -918,7 +918,7 @@ let vr = 4
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Monty/ltmt_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -933,7 +933,7 @@ let vr = 7
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Mugsy/ltmg_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -948,7 +948,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Music/ltmu_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -962,7 +962,7 @@ if (command == 'voice63') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Music/ltmu_0${(10, 81).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -977,7 +977,7 @@ let vr = 9
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Nasty_Canasta/ltnc_00${vr.getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -991,7 +991,7 @@ if (command == 'voice65') {
 await conn.sendFile(m.chat, `https://www.nonstick.com/audio/soundsource/Nasty_Canasta/ltnc_0${(10, 12).getRandom()}.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1504,7 +1504,7 @@ if (command == 'konichiwa') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/hashira-konichiwa.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1519,7 +1519,7 @@ if (command == 'nani') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/nani.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
