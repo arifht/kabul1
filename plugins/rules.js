@@ -56,6 +56,6 @@ conn.sendMessage(m.chat, tm, m)
 }
 handler.help = ['rules']
 handler.tags = ['info']
-handler.command = /^rules$/i
+handler.command = /^rules|rules1$/i
 
 export default handler
