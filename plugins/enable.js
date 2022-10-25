@@ -331,14 +331,14 @@ desc
 
 📮Pastikan Huruf kecil semua!
  `.trim(), `./media/on-off.jpg`, [ 
- [`⫷ ɢʀᴏᴜᴘ ᴏғғɪᴄɪᴀʟ ⫸`, `.gcwann`] 
+ [`⫷ ɢʀᴏᴜᴘ ᴏғғɪᴄɪᴀʟ ⫸`, `.gcbul`] 
  ], m, {asLocation:true}) 
        throw false 
    } 
      conn.sendButton(m.chat, botdate, `*${htka} STATUS ${htki}* 
-   *Type:*   ${type}  
+   *Type:*     ${type}  
  ️  *Status:*   Succes ✅ 
- ️  *Options:*   ${isEnable ? 'ON' : 'OFF'}  
+ ️  *Options:*  ${isEnable ? 'ON' : 'OFF'}  
    ${isAll ? 'Bot Only' : isUser ? '' : 'Chat Only'} 
  `, `${imgr + 'Options'}`, [['⫷ ᴍᴇɴᴜ ⫸', '.menu'],['⫷ ᴏᴋᴇ ⫸', 'Ok']],m)
  } 
