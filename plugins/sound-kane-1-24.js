@@ -30,13 +30,13 @@ await conn.sendFile(m.chat, audio, 'error.mp3', null, fkontak, true, {
 type: 'audioMessage', 
 ptt: false, seconds: 0,contextInfo: {
          externalAdReply: { showAdAttribution: true,
- mediaUrl: 'www.instagram.com/_ctzhid',
+ mediaUrl: 'www.instagram.com/kabulsaputra21',
     mediaType: 2, 
-    description: 'www.instagram.com/_ctzhid',
+    description: 'www.instagram.com/kabulsaputra21',
     title: "Now Playing...",
     body: wm,
-    thumbnail: await (await fetch('https://i.ibb.co/XZrK6yQ/transformers.jpg')).buffer(),
-    sourceUrl: 'www.instagram.com/_ctzhid'
+    thumbnail: await (await fetch('https://telegra.ph/file/166ae5e34a8219f02cccd.jpg')).buffer(),
+    sourceUrl: 'www.instagram.com/kabulsaputra21'
  	  }
      }
     })
@@ -44,6 +44,6 @@ ptt: false, seconds: 0,contextInfo: {
 
 handler.command = /^(mangkane1|mangkane2|mangkane3|mangkane4|mangkane5|mangkane6|mangkane7|mangkane8|mangkane9|mangkane10|mangkane11|mangkane12|mangkane13|mangkane14|mangkane15|mangkane16|mangkane17|mangkane18|mangkane19|mangkane20|mangkane21|mangkane22|mangkane23|mangkane24)$/i
 
-handler.limit = true
+handler.limit = false
 
 export default handler 
