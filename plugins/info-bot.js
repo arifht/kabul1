@@ -54,11 +54,11 @@ let handler = async (m, { conn, usedPrefix, __dirname, text, command }) => {
   let speed = neww - old
   let cap = `*––––––『 BOT INFO 』––––––*
 ${readMore}
-🤖 ɴᴀᴍᴇ: SkyBot
+🤖 ɴᴀᴍᴇ: 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗
 🧩 ᴠᴇʀsɪᴏɴ: 1.3.0
-📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By Arifzyn 
+📚 ʟɪʙʀᴀʀʏ: Simple Bot WhatsApp By 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗
 
-⏳ ᴜᴩᴛɪᴍᴇ: ${uptime}
+⏳ ᴜᴩᴛɪᴍᴇ:   ${uptime}
 📈 ᴅᴀᴛᴀʙᴀsᴇ: ${totalreg}
 
 📅 ᴅᴀᴛᴇ: ${date}
