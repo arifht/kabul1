@@ -1,15 +1,15 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  conn.sendButton(m.chat, '```Ini Kak```\n\n*©By ᴹᴿ᭄ King Of Bear ×፝֟͜×*', wm, pickRandom(galau), [['Lanjut', `/videogalau}`]],m)
+  conn.sendButton(m.chat, '```Ini Kak```\n\n*©By ᴹᴿ᭄ 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 ×፝֟͜×*', wm, pickRandom(galau), [['⫷ NEXT ⫸', `/videogalau}`]],m)
 }
-handler.help = ['videoquotes', 'videogalau']
-handler.tags = ['premium', 'quotes']
-handler.command = /^(videoquotes|videogalau)$/i
+handler.help = ['videogalau']
+handler.tags = ['quotes']
+handler.command = /^(videogalau|vidiogalau)$/i
 
-handler.premium = true
-handler.limit = true
+handler.premium = false
+handler.limit = false
 
 handler.fail = null
-handler.register = true
+handler.register = false
 
 export default handler
 
