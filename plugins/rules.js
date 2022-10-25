@@ -1,6 +1,11 @@
-let handler = async (m, { conn, usedPrefix: _p, __dirname, args }) => {
-let text = `${htki} *RULES* ${htka}
+import fs from 'fs'
+import fetch from 'node-fetch'
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
+
+let str = `⟣─══⟪ *𝐑𝐮𝐥𝐞𝐬 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗* ⟫══─⟢
+            
 _Kebijakan privasi atau Private without being in public_
 
 
@@ -42,20 +47,36 @@ _Cara penggunaan 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 Agar terhindar dari S
 3. WhatsApp Bot tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.
 4. WhatsApp Bot akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
 5. WhatsApp Bot bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
+
+
+*Hormat Kami:*\n\n*©「 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 」*
 `
-const templateButtons = [
-    {index: 1, urlButton: {displayText: 'Link', url: 'https://fangzbot.websites.co.in/'}},
-]
-let tm = {
-text: text,
-footer: global.wm,
-templateButtons: templateButtons,
-image: {url: fla + 'Donasi'}
-}
-conn.sendMessage(m.chat, tm, m)
-}
+
+conn.sendButtonDoc(m.chat, str, botdate,' ⫷ ᴏᴡɴᴇʀ ⫸ ','.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: false,
+    mediaUrl: 'https://instagram/kabulsaputra21',
+    mediaType: 2, 
+    description: sgc,
+    title: '≪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ⋟',
+    body: botdate,
+    thumbnail: await(await fetch("https://telegra.ph/file/166ae5e34a8219f02cccd.jpg")).buffer(),
+    sourceUrl: sgc
+  }
+  } }) 
+          }
 handler.help = ['rules']
+
 handler.tags = ['info']
-handler.command = /^rules|rules1$/i
+
+handler.command = /^rules|peraturan$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.exp = 3
 
 export default handler
