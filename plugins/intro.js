@@ -39,7 +39,7 @@ let wibu = `https://api-reysekha.herokuapp.com/api/random/cosplay?apikey=apirey`
 let thumb = await(await fetch(wibu)).buffer()
 conn.sendButtonDoc(m.chat, krtu, wm,'MENU','.menu', m, { contextInfo: { externalAdReply: { showAdAttribution: true,
     mediaUrl: "https://Instagram.com/kabulsaputra21",
-    mediaType: "2",
+    mediaType: "VIDEO",
     description: "2", 
     title: '≪ Jᴏɪɴ Sɪɴɪ Cᴜʏ ⋟',
     body: wm,
