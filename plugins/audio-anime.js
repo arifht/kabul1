@@ -1534,7 +1534,7 @@ if (command == 'rikka') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/rikka-ow.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1549,7 +1549,7 @@ if (command == 'ultra') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/ultra-instinct.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1564,7 +1564,7 @@ if (command == 'ahh') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/yemete-kudasai-ah.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1579,7 +1579,7 @@ if (command == 'yemete') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/yemete-kudasai.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1594,7 +1594,7 @@ if (command == 'yuno') {
 await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/yuno-yukki.mp3`, command + '.mp3', '', m, null, { contextInfo: {
             mimetype: 'audio/mp4',
           externalAdReply :{
-    mediaUrl: sig,
+    mediaUrl: sgc,
     mediaType: 2,
     description: wm, 
     title: '👋 Hai, ' + name + ' ' ,
@@ -1606,6 +1606,7 @@ await conn.sendFile(m.chat, `https://andgyk.is-a.dev/anime-soundboard/audio/yuno
 }
 
 }
+handler.help = ['ahh', 'ara', 'ganbare', 'konichiwa', 'nani', 'rikka', 'ultra', 'voice', 'voice1', 'voice2', 'voice3', 'voice4', 'voice5', 'voice6', 'voice7', 'voice8', 'voice9', 'voice10', 'voice11', 'voice12', 'voice13', 'voice14', 'voice15', 'voice16', 'voice17', 'voice18', 'voice19', 'voice20', 'voice21', 'voice22', 'voice23', 'voice24', 'voice25', 'voice26', 'voice27', 'voice28', 'voice29', 'voice30', 'voice31', 'voice32', 'voice33', 'voice34', 'voice35', 'voice36', 'voice37', 'voice38', 'voice39', 'voice40', 'voice41', 'voice42', 'voice43', 'voice44', 'voice45', 'voice46', 'voice47', 'voice48', 'voice49', 'voice50', 'voice51', 'voice52', 'voice53', 'voice54', 'voice55', 'voice56', 'voice57', 'voice58', 'voice59', 'voice60', 'voice61', 'voice62', 'voice63', 'voice64', 'voice65', 'voice66', 'voice67', 'voice68', 'voice69', 'voice70', 'voice71', 'voice72', 'voice73', 'voice74', 'voice75', 'voice76', 'voice77', 'voice78', 'voice79', 'voice80', 'voice81', 'voice82', 'voice83', 'voice84', 'voice85', 'voice86', 'voice87', 'voice88', 'voice89', 'voice90', 'voice91', 'voice92', 'voice93', 'voice94', 'voice95', 'voice96', 'voice97', 'yemete', 'yuno']
 handler.command = ['ahh', 'ara', 'ganbare', 'konichiwa', 'nani', 'rikka', 'ultra', 'voice', 'voice1', 'voice2', 'voice3', 'voice4', 'voice5', 'voice6', 'voice7', 'voice8', 'voice9', 'voice10', 'voice11', 'voice12', 'voice13', 'voice14', 'voice15', 'voice16', 'voice17', 'voice18', 'voice19', 'voice20', 'voice21', 'voice22', 'voice23', 'voice24', 'voice25', 'voice26', 'voice27', 'voice28', 'voice29', 'voice30', 'voice31', 'voice32', 'voice33', 'voice34', 'voice35', 'voice36', 'voice37', 'voice38', 'voice39', 'voice40', 'voice41', 'voice42', 'voice43', 'voice44', 'voice45', 'voice46', 'voice47', 'voice48', 'voice49', 'voice50', 'voice51', 'voice52', 'voice53', 'voice54', 'voice55', 'voice56', 'voice57', 'voice58', 'voice59', 'voice60', 'voice61', 'voice62', 'voice63', 'voice64', 'voice65', 'voice66', 'voice67', 'voice68', 'voice69', 'voice70', 'voice71', 'voice72', 'voice73', 'voice74', 'voice75', 'voice76', 'voice77', 'voice78', 'voice79', 'voice80', 'voice81', 'voice82', 'voice83', 'voice84', 'voice85', 'voice86', 'voice87', 'voice88', 'voice89', 'voice90', 'voice91', 'voice92', 'voice93', 'voice94', 'voice95', 'voice96', 'voice97', 'yemete', 'yuno']
 handler.tags = ['audio']
 
