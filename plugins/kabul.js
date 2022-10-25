@@ -37,7 +37,7 @@ let kata =`『 *ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ* 』 ʜᴀɪ,ᴀᴋᴜ ᴀᴅᴀ
 'headerType':6}
     await conn.sendMessage(m.chat,buttonMessage, { quoted:m})
 }
-handler.customPrefix = /^(woy|bul|zyko|menu|tiktok|ok|huuu)$/i
+handler.customPrefix = /^(woy|bul|zyko|menu|tiktok|ok|huuu|asu|anjir|but|Bang|sepi|group|ini|kenpa|ya|kenpa ya|sewa bot|sewa)$/i
 handler.command = new RegExp
 
 export default handler
