@@ -1,29 +1,26 @@
-import fs from 'fs'
 import fetch from 'node-fetch'
-let handler = async(m, { conn, text, usedPrefix, command }) => {
-let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
-
-
-let str = `⟣─══⟪ *𝐑𝐮𝐥𝐞𝐬 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗* ⟫══─⟢
-            
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let pp = 'https://telegra.ph/file/a0d2c6d41f74426359415.jpg'
+let pepe = pp ? await (await fetch(pp)).buffer() : Buffer.alloc(0)
+let anu =`
 _Kebijakan privasi atau Private without being in public_
 
 
 
 • *Kebijakan Privasi:*
-1. WhatsApp Bot tidak akan merekam data riwayat chat user.
-2. WhatsApp Bot tidak akan menyebarkan nomor users.
-3. WhatsApp Bot tidak akan menyimpan media yang dikirimkan oleh users.
-4. WhatsApp Bot tidak akan menyalah gunakan data data users.
-5. Owner WhatsApp Bot berhak melihat data riwayat chat users.
-6. Owner WhatsApp Bot berhak melihat status users.
-7. Owner WhatsApp Bot dapat melihat riwayat chat, dan media yang dikirimkan users.
+1. ZykoBotz-MD tidak akan merekam data riwayat chat user.
+2. ZykoBotz-MD tidak akan menyebarkan nomor users.
+3. ZykoBotz-MD tidak akan menyimpan media yang dikirimkan oleh users.
+4. ZykoBotz-MD tidak akan menyalah gunakan data data users.
+5. Owner ZykoBotz-MD berhak melihat data riwayat chat users.
+6. Owner ZykoBotz-MD berhak melihat status users.
+7. Owner ZykoBotz-MD dapat melihat riwayat chat, dan media yang dikirimkan users.
 
 • Jika ada bug/eror di website kami saya mohon untuk Report nya, tanpa biaya dan aman
 
-_Cara penggunaan 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 Agar terhindar dari Suspand_
+_Cara penggunaan ZykoBotz-MD Agar terhindar dari Suspand_
 
-• *Peraturan WhatsApp Bot:*
+• *Peraturan ZykoBotz-MD:*
 1. Users dilarang menelpon maupun memvideo call nomor bot.
 2. Users dilarang mengirimkan berbagai bug, virtex, dll ke nomor bot.
 3. Users diharap tidak melakukan spam dalam penggunaan bot.
@@ -32,51 +29,34 @@ _Cara penggunaan 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 Agar terhindar dari S
 
 • *Note:*
 1. Jika ada yang menjual/beli/sewa bot atas nomor ini, harap segera hubungi owner!
-2. jiga ingin membeli sc bisa langsung hubungi ke no Whatsapp wa.me/6282127487538
-3. Jika ingin donasi bisa langsung aja ya social payment Dana 
-4. Ketik .sewa Jika Ingin SewaBot 
+2. Jika ingin donasi bisa langsung aja ya social payment Dana 
+3. jika ingin membeli scrip bot Whatsapp bisa langsung Hubungi ke no Whatsapp:wa.me/62 82127487538
+3. Ketik .sewa Jika Ingin SewaBot 
 
 •Agar terhindar dari Suspand/Ban kalian bisa membaca juga di Peraturan kami.
 
 •Perlu kalian tahu bahwa kami menjaga Privasi dari data-data anda!
 
-• *Syarat Ketentuan WhatsApp Bot:*
+• *Syarat Ketentuan ZykoBotz-MD:*
 
-1. WhatsApp Bot akan keluar dari group jika ada salah satu member melanggar peraturan.
-2. WhatsApp Bot dapan mem-ban users secara sepihak terlepas dari users salah atau tidak.
-3. WhatsApp Bot tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.
-4. WhatsApp Bot akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
-5. WhatsApp Bot bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
-
-
-*Hormat Kami:*\n\n*©「 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 」*
+1. ZykoBotz-MD akan keluar dari group jika ada salah satu member melanggar peraturan.
+2. ZykoBotz-MD dapat mem-ban users secara sepihak terlepas dari users salah atau tidak.
+3. ZykoBotz-MD tidak akan bertanggungjawab atas apapun yang users lakukan terhadap fitur bot.
+4. ZykoBotz-MD akan memberlakukan hukuman: block atau ban terhadap users yang melanggar peraturan.
+5. ZykoBotz-MD bertanggung jawab atas kesalahan fatal dalam programing maupun owner.
 `
-
-conn.sendButtonDoc(m.chat, str, botdate,' ⫷ ᴏᴡɴᴇʀ ⫸ ','.owner', m, { contextInfo: { externalAdReply: { showAdAttribution: false,
-    mediaUrl: 'https://instagram/kabulsaputra21',
-    mediaType: 2, 
-    description: sgc,
-    title: '≪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ⋟',
-    body: botdate,
-    thumbnail: await(await fetch("https://telegra.ph/file/166ae5e34a8219f02cccd.jpg")).buffer(),
-    sourceUrl: sgc
-  }
-  } }) 
-          }
+  conn.send2ButtonImg(m.chat, pepe, `  ${htki} *RULES* ${htka}`, anu, '⫷ Menu ⫸', '.menu', '⫷ Owner ⫸', '.owner', m)
+}
 handler.help = ['rules']
-
 handler.tags = ['info']
-
-handler.command = /^rules|peraturan$/i
-handler.owner = false
-handler.mods = false
-handler.premium = false
+handler.command = /^(rules)$/i
 handler.group = false
-handler.private = false
+handler.limit = false
 
-handler.admin = false
-handler.botAdmin = false
+handler.fail = null
 
-handler.exp = 3
+export default handlerimport fs from 'fs'
+import fetch from 'node-fetch'
+let handler = async(m, { conn, text, usedPrefix, command }) => {
+let pp = await conn.profilePictureUrl(m.chat).catch(_ => null)
 
-export default handler
