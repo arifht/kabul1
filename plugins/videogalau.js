@@ -1,9 +1,11 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
-  conn.sendButton(m.chat, '```Ini Kak```\n\n*©By ᴹᴿ᭄ 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 ×፝֟͜×*\n', wm, pickRandom(galau), [['⫷ NEXT ⫸', '.videogalau}']],m)
+let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+let name = conn.getName(who)
+  conn.sendButton(m.chat, `Nih *${name}* Video Galaunya..`, botdate, pickRandom(galau), [['Next', `/videogalau`]],m)
 }
-handler.help = ['videogalau']
+handler.help = ['vidiogalau']
 handler.tags = ['quotes']
-handler.command = /^(videogalau|vidiogalau)$/i
+handler.command = /^(vgalau|videogalau|vidiogalau)$/i
 
 handler.premium = false
 handler.limit = false
