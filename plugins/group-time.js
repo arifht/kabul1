@@ -21,7 +21,7 @@ Contoh:
 *${usedPrefix + command} tutup*
 *${usedPrefix + command} buka*
 
-Contoh pilihan: *${usedPrefix + command} tutup 1* 
+Contoh pilihan: 
 Maka grup akan di buka otomatis 1 jam kemudian.
 `
       m.reply(caption)
