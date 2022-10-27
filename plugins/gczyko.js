@@ -34,7 +34,7 @@ conn.sendButtonDoc(m.chat, str, wm,' ᴏᴋᴇ ʙᴀɴʜ🗿 ','huuu', m, { cont
   }
   } }) 
           }
-handler.help = ['gcwann']
+handler.help = ['gcbul']
 
 handler.tags = ['info']
 
