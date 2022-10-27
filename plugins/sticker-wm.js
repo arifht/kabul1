@@ -7,6 +7,7 @@ let handler = async (m, { conn, text }) => {
   try {
     let [packname, ...author] = text.split('|')
     author = (author || []).join('|')
+    m.reply(wait)
     let mime = m.quoted.mimetype || ''
     if (!/webp/.test(mime)) throw 'Reply sticker!'
     let img = await m.quoted.download()
