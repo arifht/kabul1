@@ -11,7 +11,7 @@ ${htki} ${emot} LOGO KEREN  ${htka}
 Ketik ulang *${usedPrefix + command}* teks anda untuk mengubah teks lagi
 
 Nomor Owner Bot : wa.me/${nomorown}
-IG OWNER : ${sig}`
+`
 //yang hapus nomor developer mudah-mudahan banyak crash
 const sections = [
    {
@@ -31,7 +31,7 @@ const sections = [
         {title: "3dpig-gif|3druby-stone", rowId: `.3dpig-gif|3druby-stone ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dsand-engraved", rowId: `.3dsand-engraved ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dshiny-metallic", rowId: `.3dshiny-metallic ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },                                
-        title: "3dsparkle-christmas", rowId: `.3dsparkle-christmas ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+        {title: "3dsparkle-christmas", rowId: `.3dsparkle-christmas ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dsub-zombie", rowId: `.3dsub-zombie ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dtext-effect|3dtext-effect2", rowId: `.3dtext-effect|3dtext-effect2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dtext-effect3", rowId: `.3dtext-effect3 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
@@ -59,15 +59,15 @@ const sections = [
         {title: "birthday-cake10", rowId: `.birthday-cake10 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake2", rowId: `.birthday-cake3 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake4", rowId: `.birthday-cake4 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },                                
-        title: "birthday-cake5", rowId: `.birthday-cake5 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-       {title: "birthday-cake6", rowId: `.birthday-cake6 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+        {title: "birthday-cake5", rowId: `.birthday-cake5 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+        {title: "birthday-cake6", rowId: `.birthday-cake6 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake7", rowId: `.birthday-cake7 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake8", rowId: `.birthday-cake8 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake9", rowId: `.birthday-cake9 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cards", rowId: `.birthday-cards ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthdayfoil-balloon", rowId: `.birthdayfoil-balloon ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "blackpink", rowId: `.blackpink ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-       {title: "blackskin-snake", rowId: `.blackskin-snake ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+        {title: "blackskin-snake", rowId: `.blackskin-snake ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "blood-frosted", rowId: `.blood-frosted ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "blood-steel", rowId: `.blood-steel ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MDT' },
         {title: "blood-text", rowId: `.blood-text ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
