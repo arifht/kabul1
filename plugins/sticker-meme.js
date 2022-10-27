@@ -7,6 +7,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     if (!mime) throw `balas gambar dengan perintah\n\n${usedPrefix + command} <${atas ? atas : 'teks atas'}>|<${bawah ? bawah : 'teks bawah'}>`
     if (!/image\/(jpe?g|png)/.test(mime)) throw `_*Mime ${mime} tidak didukung!*_`
     let img = await q.download()
+    m.reply(wait)
     let url = await uploadImage(img)
     let meme = `https://api.memegen.link/images/custom/${encodeURIComponent(atas ? atas : '')}/${encodeURIComponent(bawah ? bawah : '')}.png?background=${url}`
     let stiker = await sticker(false, meme, global.packname, global.author)
@@ -16,6 +17,6 @@ handler.help = ['smeme <teks atas>|<teks bawah>']
 handler.tags = ['tools', 'limitmenu']
 handler.command = /^(smeme)$/i
 
-handler.limit = true
+handler.limit = false
 
 export default handler
