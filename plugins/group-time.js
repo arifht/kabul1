@@ -21,7 +21,7 @@ Contoh:
 *${usedPrefix + command} tutup*
 *${usedPrefix + command} buka*
 
-Contoh pilihan: 
+Contoh pilihan: ${usedPrefix + command} gctime
 Maka grup akan di buka otomatis 1 jam kemudian.
 `
       m.reply(caption)
