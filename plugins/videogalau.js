@@ -45,4 +45,6 @@ const galau = [
 "https://telegra.ph/file/3545cd47fb10f37bf43ab.mp4",
 "https://telegra.ph/file/9a326ca62eca4e60c0b93.mp4",
 "https://telegra.ph/file/027939516ecafb976d67c.mp4",
+"https://telegra.ph/file/1ee2a3ceb9eafaf80a426.mp4",
+"https://telegra.ph/file/841c7f0d7be86f925cf8f.mp4",
 ]
