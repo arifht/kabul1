@@ -1,4 +1,5 @@
 let handler = async (m, { conn, usedPrefix, command }) => {
+  m.reply(wait)
 let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
 let name = conn.getName(who)
   conn.sendButton(m.chat, `Nih *${name}* Video Galaunya..`, botdate, pickRandom(galau), [['Next', `/videogalau`]],m)
