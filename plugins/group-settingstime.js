@@ -25,7 +25,7 @@ Maka grup akan di buka otomatis 1 menit kemudian.
       m.reply(caption)
 	  throw false
   }
-  let timeoutset = 86400000 * args[0] / 24
+  let timeoutset = 86400000 * args[1] / 24
   await conn.groupSettingUpdate(m.chat, isClose).then(async _=> {
 	  m.reply(`Sukses me${isClose == 'announcement' ? 'nutup' : 'mbuka'} grup${args[1] ? `, grup akan dibuka setelah *${clockString(timeoutset)}*` : ''}`)
   })
