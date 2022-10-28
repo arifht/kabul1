@@ -1,9 +1,9 @@
 let handler = async (m, { conn, usedPrefix, text, args, command }) => {
-	let emot = `${pickRandom(['⎔', '◈▻', '✦', '⭑', 'ᯬ', '⭔', '◉', '⬟', '᭻', '»', '〆', '々', '⛥', '✗', '⛊', '⚝', '⚚', '♪'])}`
+
 if (!text) return m.reply('Masukkan Teks..')
 	
 let tiktok = `
-${htki} ${emot}LOGO KEREN  ${htka}
+${htki} ✨ LOGO KEREN  ${htka}
 
 • Silakan pilih Logo  di bawah ini...
 
