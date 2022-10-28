@@ -12,7 +12,7 @@ let handler = async (m, { conn, participants }) => {
 
 }
 handler.help = ['kick'].map(v => v + ' @user')
-handler.tags = ['group']
+handler.tags = ['owner']
 handler.command = /^(kick)$/i
 handler.owner = true
 handler.admin = true
