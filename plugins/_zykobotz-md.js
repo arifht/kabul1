@@ -2,7 +2,7 @@ let handler = async (m, { conn, usedPrefix, text, args, command }) => {
 if (!text) return m.reply('Masukkan Teks..')
 	
 let tiktok = `
-${htki} ${emot} LOGO KEREN  ${htka}
+${htki} ✨LOGO KEREN  ${htka}
 
 ⚡ Silakan pilih Logo di bawah ini...
 
@@ -18,14 +18,14 @@ const sections = [
 	title: `${htjava} IMAGE SEARCH Work✦-------`,
 	rows: [
         {title: "1917", rowId: `.1917 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-	    {title: "3d-crack-text-effect-online", rowId: `.3d-crack-text-effect-online ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+	{title: "3d-crack-text-effect-online", rowId: `.3d-crack-text-effect-online ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3d-underwater", rowId: `.3d-underwater ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3d-wood", rowId: `.3d-wood ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3damerican-flag", rowId: `.3damerican-flag ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dglue-realistic", rowId: `.3dglue-realistic ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dgradient", rowId: `.3dgradient ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },     
         {title: "3dgradient2", rowId: `.3dgradient2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-	    {title: "3dmetal-effect", rowId: `.3dmetal-effect ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+	{title: "3dmetal-effect", rowId: `.3dmetal-effect ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dmetal-text-", rowId: `.3dmetal-text- ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dmulticolor-papercut", rowId: `.3dmulticolor-papercut ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dpig-gif|3druby-stone", rowId: `.3dpig-gif|3druby-stone ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
@@ -39,7 +39,7 @@ const sections = [
         {title: "3dvalentine-cards", rowId: `.3dvalentine-cards ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dxmas-cards", rowId: `.3dxmas-cards ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "3dxmas-cards2", rowId: `.3dxmas-cards2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-	    {title: "83day-card", rowId: `.83day-card ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+	{title: "83day-card", rowId: `.83day-card ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "83day-card2", rowId: `.83day-card2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "83day-card3", rowId: `.83day-card3 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MDT' },
         {title: "83day-card4", rowId: `.83day-card4 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
@@ -53,7 +53,7 @@ const sections = [
         {title: "zzenka-league-of-kings", rowId: `.zzenka-league-of-kings ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "balloon-noel", rowId: `.balloon-noel ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },     
         {title: "bats-halloween", rowId: `.bats-halloween ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
-	    {title: "bear2", rowId: `.bear2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
+	{title: "bear2", rowId: `.bear2 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "bee", rowId: `.bee ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake", rowId: `.birthday-cake ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
         {title: "birthday-cake10", rowId: `.birthday-cake10 ${text}`, description: 'Buat Logo Kamu di ZykoBotz-MD' },
@@ -89,7 +89,7 @@ await conn.sendMessage(m.chat, listMessage, { quoted: fakes, mentions: await con
 }
 
 handler.help = ['logolist <teks>', 'logo <teks>']
-handler.tags = ['internet', 'tools']
+handler.tags = ['internet', 'logo']
 handler.command = /^(logolist|logo|listlogo|buatlogo)$/i
 handler.owner = true
 export default handler
