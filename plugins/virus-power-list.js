@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
 let info = `
 *${htki} VIRUS ${htka}*
           
- 🔥BY 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 ×፝֟͜×🔥
+ 🔥BY ᴹᴿ᭄ ZykoBotz-MD ×፝֟͜×🔥
           
                   
 –––––– *ᴋᴇʙɪᴊᴀᴋᴀɴ* ––––––
@@ -42,9 +42,8 @@ const listMessage = {
 await conn.sendMessage(m.chat, listMessage, { quoted: m})
 //conn.sendHydrated(m.chat, info, wm, null, sgc, "🌎 Group Official", null,null, [['Owner','.owner']], m)
 }
-handler.tags = ['virus']
 handler.command = /^powerlist$/i
+handler.premium = false
 handler.owner = true
-handler.group = true
 
 export default handler
