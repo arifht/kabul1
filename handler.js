@@ -1325,7 +1325,7 @@ export async function participantsUpdate({ id, participants, action }) {
     sourceUrl: sgc
      }}
   })*/
-  let welcom = 'https://telegra.ph/file/b077164b1cb312b75b2c1.jpg'
+  let welcom = 'https://telegra.ph/file/5105418f5aae6e86e7e2d.jpg'
 
   let godbye = 'https://telegra.ph/file/ec1eb514d619a5ae78e17.jpg'
   conn.sendButtonImg(id, await(await fetch(action === 'add' ? wel : lea)).buffer(), 'Group Messege', text, action == 'add' ? 'ᴡᴇʟᴄᴏᴍᴇ' : 'sᴀʏᴏɴᴀʀᴀᴀ', action === 'add' ? '.intro' : 'WH MODS BOT', fakes, { contextInfo: { externalAdReply: { showAdAttribution: true,
