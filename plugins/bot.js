@@ -9,9 +9,9 @@ conn.reply(m.chat, info, m, { contextInfo: { externalAdReply: { showAdAttributio
     mediaUrl: 'https://instagram/wannzx_133',
     mediaType: 2, 
     description: sgc,
-    title: '≪ ᴄʟɪᴄᴋ ʜᴇʀᴇ ⋟',
+    title: '≪ Jᴏɪɴ Sɪɴɪ Cᴜʏ ⋟',
     body: wm,
-    thumbnail: await(await fetch("https://telegra.ph/file/166ae5e34a8219f02cccd.jpg")).buffer(),
+    thumbnail: await(await fetch("https://telegra.ph/file/b077164b1cb312b75b2c1.jpg")).buffer(),
     sourceUrl: sgc
   }
   } }) 
