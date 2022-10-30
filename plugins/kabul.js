@@ -26,7 +26,7 @@ let kata =`『 *ɪɴᴛʀᴏᴅᴜᴄᴛɪᴏɴ* 』 ʜᴀɪ,ᴀᴋᴜ ᴀᴅᴀ
 'previewType':'pdf',
 'title':global.titlebot,
 'body':global.titlebot,
-'thumbnail':await(await fetch('https://telegra.ph/file/166ae5e34a8219f02cccd.jpg')).buffer(),
+'thumbnail':await(await fetch('https://telegra.ph/file/b077164b1cb312b75b2c1.jpg')).buffer(),
 'sourceUrl':sgc}},
 'caption':kata,
 'footer':botdate,
