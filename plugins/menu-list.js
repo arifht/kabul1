@@ -361,6 +361,7 @@ let tek = `✧────···[ Dashboard ]···────✧
 │
 ├━━━━━━━━━━━━━━━━┈─⋆
 │  「 *I n f o   B o t 比* 」
+│${emot} Nama Group *${groupMetadata.subject}*
 │${emot} Aktif selama ${mpt}
 │${emot} Baterai ${conn.battery != undefined ? `${conn.battery.value}% ${conn.battery.live ? '🔌 pengisian' : ''}` : 'tidak diketahui'}
 │${emot} Prefix : [ ${_p} ]
