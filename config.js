@@ -49,8 +49,8 @@ let wibh = moment.tz('Asia/Jakarta').format('HH')
 
 // kalo ga punya ketik "-" atau biarin aja biar ada creditsnya :v
 
-global.sig = 'https://instagram.com/kabulsaputra21' // ig
-global.sgh = 'https://github.com/ZykoBotz-MD/' // github
+global.sig = 'https://instagram.com/arifht08' // ig
+global.sgh = 'https://github.com/arifht' // github
 global.sgc = 'https://chat.whatsapp.com/B9PTc9PZbBH0INkdEN07ws' // group whatsapp
 global.sdc = 'https://www.discord.com'//discord
 global.snh = 'https://www.youtube.com/channel/UCMx4e8anOq_Olt2nMSv0Cow' // my youtube channel
@@ -58,19 +58,19 @@ global.sfb = 'https://www.facebook.com/' // facebook
 global.syt = 'https://www.youtube.com/' // my youtube channel "kalau ada yt ke 2 tarok link nya disini"
 
 /*============== PAYMENT ==============*/
-global.pdana = '085212649276' //dana
+global.pdana = '085741580627' //dana
 global.povo = '085212649276' //ovo
 global.pgopay = '085212649276' //gopay
 global.plinkaja = '085212649276' //link aja
-global.ppulsa = '085212649276' //telkomsel
-global.ppulsa2 = '085212649276' // kalau ada kartu lain isi aja
-global.psaweria = 'https://saweria.co/mrw4h1d'
+global.ppulsa = '081325175426' //telkomsel
+global.ppulsa2 = '085741580627' // kalau ada kartu lain isi aja
+global.psaweria = 'https://saweria.co/arifht'
 
 /*============== NOMOR ==============*/
-global.nomorbot = '6285715382503'
-global.nomorown = '6281386943282'
-global.namebot = '𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗'
-global.nameown = '𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗'
+global.nomorbot = '6281325175426'
+global.nomorown = '6285741580627'
+global.namebot = 'ARIFboots-𝗠𝗗'
+global.nameown = 'ARIF-𝗠𝗗'
 
 /*============== Github Thanks To ==============*/
 global.namagithub = 'Nama Github Belum Diisi' // nama github lu
@@ -85,7 +85,7 @@ global.lolkey = 'e54205a4ca2caa368cc067bb' // PUNYA WAHID  8e66d0934cf741bfd2182
 
 /*============== STAFF ==============*/
 global.owner = [
-  ['6281386943282', '𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗', true],
+  ['6285741580627', 'ARIF HT', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
   ['-', 'ISI KALAU ADA', true],
@@ -138,14 +138,14 @@ global.APIKeys = { // APIKey Here
 // Kata APIKEY itu isi dengan apikey lu sendiri, dengan beli ke website itu
 
 /*============== WATERMARK ==============*/
-global.wm = '                「 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 」' //Main Watermark
+global.wm = '                「 ARIF𝗕𝗼𝘁𝘇-𝗠𝗗 」' //Main Watermark
 global.wm2 = ' '
-global.wm3 = '⫹⫺ 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗 '
+global.wm3 = '⫹⫺ ARIF𝗕𝗼𝘁𝘇-𝗠𝗗 '
 global.botdate = `⫹⫺ DATE: ${week} ${date}\n⫹⫺ 𝗧𝗶𝗺𝗲: ${wktuwib}`
 global.bottime = `T I M E : ${wktuwib}`
-global.titlebot = `⫹⫺ WhatsApp Bot | By 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗`
+global.titlebot = `⫹⫺ WhatsApp Bot | By ARIF𝗕𝗼𝘁𝘇-𝗠𝗗`
 global.packname = '☂︎ ᴄʀᴇᴀᴛᴇᴅ ʙʏ'
-global.author = '                「 𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗  あ」'
+global.author = '                「 ARIF𝗕𝗼𝘁𝘇-𝗠𝗗  あ」'
 
 /*Fake*/
 global.fsizedoc = '1'.repeat(10)
@@ -636,8 +636,8 @@ global.htjava = '⫹⫺'    //hiasan Doang :v
 global.hsquere = ['⛶','❏','⫹⫺']
 
 /*============== STICKER WM ==============*/
-global.stickpack = '𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗'
-global.stickauth = `𝗭𝘆𝗸𝗼𝗕𝗼𝘁𝘇-𝗠𝗗`
+global.stickpack = 'ARIF𝗕𝗼𝘁𝘇-𝗠𝗗'
+global.stickauth = `ARIF𝗕𝗼𝘁𝘇-𝗠𝗗`
 
 global.multiplier = 38 // The higher, The harder levelup
 
